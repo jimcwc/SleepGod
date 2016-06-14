@@ -33,7 +33,7 @@ public class ExampleRequst extends Activity {
         mSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                postRequest("15021593753", "123456");
+                postRequest("150215xxxxx", "123456");
             }
         });
         mTextView = (TextView) findViewById(R.id.request_result);
@@ -55,7 +55,7 @@ public class ExampleRequst extends Activity {
         Log.d("login", "versionCode: " + UHelper.getAppVersionInfo(ExampleRequst.this, UHelper.TYPE_VERSION_CODE));
 
 
-        mHttpClient.post(this,"http://218.58.50.51:8001/qingpiapi/user/login2", params, new RequestCallBack(this) {
+        mHttpClient.post(this,"http://xxx.xx.xx/xx/user/login2", params, new RequestCallBack(this) {
             @Override
             public void onStart(String uri) {
 
